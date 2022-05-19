@@ -1,10 +1,6 @@
 #include <iostream>
  
 using namespace std;
- 
-#include <iostream>
-
-using namespace std;
 
 void display_array(int arr[], int n){
     for(int i=0;i<n;i++){
