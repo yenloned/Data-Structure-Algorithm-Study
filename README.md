@@ -1,6 +1,6 @@
 # Data Structure & Algorithm Study
 ## Introduction
-This repository is a collection of the notes and coding of data structures and algorithms. It is aimed to record the practice and study of different data structures and algorithms, which includes Leetcode questions and common algorithms.
+This repository is a collection of the notes and coding of data structures and algorithms, which is aimed to record the practice and study of it. Leetcode questions, famous algorithms, and various usage of data structures will be included.
 <br/>
 <br/>
 In different folders, you will see the coding files and notes with the corresponding topic.
