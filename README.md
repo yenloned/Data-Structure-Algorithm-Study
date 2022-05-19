@@ -1,2 +1,29 @@
 # Data Structure & Algorithm Study
-This repository is a collection of the notes and coding of data structures and algorithms.
+## Introduction
+This repository is a collection of the notes and coding of data structures and algorithms. It is aimed to record the practice and study of different data structures and algorithms, which includes Leetcode questions and common algorithms.
+<br/>
+<br/>
+In different folders, you will see the coding files and notes with the corresponding topic.
+
+## Language
+**C++ / Python(Coming Soon) / Java(Coming Soon)**
+
+## See More
+* [Array](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Array)
+* [BFS](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/BFS)
+* [Backtracking](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Backtracking)
+* [Bit Manipulation](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Bit%20Manipulation)
+* [DFS](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/DFS)
+* [Dynamic Programming](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Dynamic%20Programming)
+* [Graph](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Graph)
+* [Greedy](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Greedy)
+* [Hash Table](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Hash%20Table)
+* [Heap](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Heap)
+* [Linked List](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Linked%20List)
+* [Math](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Math)
+* [Queue](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Queue)
+* [Sliding Window](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Sliding%20Window)
+* [Sorting](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Sorting)
+* [Stack](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Stack)
+* [String](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/String)
+* [Tree](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Tree)
