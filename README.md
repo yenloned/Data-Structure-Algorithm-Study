@@ -3,10 +3,10 @@
 This repository is a collection of the notes and coding of data structures and algorithms, which is aimed to record the practice and study of it. Leetcode questions, famous algorithms, and various usage of data structures will be included.
 <br/>
 <br/>
-In different folders, you will see the coding files and notes with the corresponding topic.
+Inside different folders, you will see the coding files and notes with the corresponding topic.
 
 ## Language
-**C++ / Python(Coming Soon) / Java(Coming Soon)**
+**C++ / Python / Java**
 
 ## See More
 * [Array](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Array)
