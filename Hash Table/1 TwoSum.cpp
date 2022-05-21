@@ -6,16 +6,15 @@ You can return the answer in any order.
 */
 
 #include <iostream>
-#include <string>
 #include <vector>
-#include <map>
+#include <unordered_map>
 
 using namespace std;
 
 vector<int> twoSum(vector<int> nums, int target) {
-    //hashmap solution, Time complexity of O(n), Space Complexity of O(n)
+    //Hashmap solution, Time complexity of O(n), Space Complexity of O(n)
     cout << "\nThe result is:" << endl;
-    map<int, int> hashmap;
+    unordered_map<int, int> hashmap;
     for (int i = 0; i < nums.size(); i++) {
         if (hashmap.find(target - nums[i]) != hashmap.end()) {
             cout << hashmap[target - nums[i]] << " " << i;
