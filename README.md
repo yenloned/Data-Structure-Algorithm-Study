@@ -6,10 +6,10 @@ This repository is a collection of the notes and coding of data structures and a
 Inside different folders, you will see the coding files and notes with the corresponding topic.
 
 ## Language
-**C++ / Python / Java**
+**C++**
 
 ## See More
-* [Array](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Array)
+* [Array & Hashing](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Array%20%26%20Hashing)
 * [BFS](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/BFS)
 * [Backtracking](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Backtracking)
 * [Bit Manipulation](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Bit%20Manipulation)
@@ -17,7 +17,6 @@ Inside different folders, you will see the coding files and notes with the corre
 * [Dynamic Programming](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Dynamic%20Programming)
 * [Graph](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Graph)
 * [Greedy](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Greedy)
-* [Hash Table](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Hash%20Table)
 * [Heap](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Heap)
 * [Linked List](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Linked%20List)
 * [Math](https://github.com/yenloned/Data-Structure-Algorithm-Study/tree/main/Math)
