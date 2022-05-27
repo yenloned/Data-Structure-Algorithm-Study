@@ -16,7 +16,6 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {};
 };
 
-//reverse a Linked List solution
 ListNode* reverseList(ListNode* head) {
     //Iterative solution, Time Complexity of O(n), Space Complexity of O(1)
     //declare 2 temp nodes (next and previous)

@@ -10,17 +10,18 @@ Given a string s, find the length of the longest substring without repeating cha
 using namespace std;
 
 int lengthOfLongestSubstring(string s) {
-    //Hashset solution, Time complexity of O(n), Space Complexity of O(n)
-    unordered_set<char> totalset;       //declare the hashset
+    //Hash Set solution, Time complexity of O(n), Space Complexity of O(n)
+    //There will be another solution for this question, please see Sliding Window
+    unordered_set<char> totalset;       //declare the hash set
     int res = 0, fast = 0, slow = 0;    //declare the maximum distance, fast pointer and slow pointer
     
-    //while the fast/slow pointer is not yet finished
+    //while the pointer is not yet finished
     //Why don't just iterative the whole string? Because the repeated character will be skipped.
     //e.g. Input: aabc, the second character "a" will be skipped without the increment of the fast pointer which causing the pointer can not catch up the iteration
-    while ( fast < s.length() && slow < s.length() ){
+    while ( fast < s.length() ){
         //if the character is existed in the hashset, which mean repeated character
         if (totalset.find(s[fast]) != totalset.end()){
-            totalset.erase(s[slow]);    //clear the character at slow pointer position, so it will only erase the repeated character
+            totalset.erase(s[slow]);    //clear the character at slow pointer position(the repeated character)
             slow++;
         //not existed
         }else{

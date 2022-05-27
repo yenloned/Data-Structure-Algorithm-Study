@@ -17,7 +17,7 @@ struct ListNode {
 
 
 class Solution {
-    //Time Complexity of O(n); Space Complexity of O(1)
+    //Time Complexity of O(m+n); Space Complexity of O(1)
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         //Create one node for the iteration(assign), one node for return(reference of the head node)

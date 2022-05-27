@@ -15,7 +15,7 @@ struct ListNode {
 };
 
 class Solution {
-    //Iterative solution, Time Complexity of O(n), Space Complexity of O(n)
+    //Iterative solution, Time Complexity of O(max(m,n)), Space Complexity of O(max(m,n))
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode *l3 = new ListNode();  //the node for iteration
