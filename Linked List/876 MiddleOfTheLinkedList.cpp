@@ -19,7 +19,7 @@ struct ListNode {
 };
 
 class Solution {
-    //Two pointer solution, Time Complexity of O(n), Space Complexity of O(1)
+    //Two Pointers solution, Time Complexity of O(n), Space Complexity of O(1)
 public:
     ListNode* middleNode(ListNode* head) {
         //In this solution, Tortoise and Hare Algorithm will be used.
