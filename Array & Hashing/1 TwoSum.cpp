@@ -5,33 +5,45 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 */
 
-#include <unordered_map>
-#include <vector>
 #include <iostream>
+#include <vector>
+#include <unordered_map>
+
 using namespace std;
 
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int> NumMap;
-        for(int i=0;i<nums.size();i++){
-            if(NumMap.find(target-nums[i])!=NumMap.end()){
-                return vector<int>{i,NumMap[target-nums[i]]};
-            }
-            NumMap[nums[i]]=i;
-
+vector<int> twoSum(vector<int> nums, int target) {
+    //Hashmap solution, Time complexity of O(n), Space Complexity of O(n)
+    cout << "\nThe result is:" << endl;
+    unordered_map<int, int> hashmap;
+    for (int i = 0; i < nums.size(); i++) {
+        if (hashmap.find(target - nums[i]) != hashmap.end()) {
+            cout << hashmap[target - nums[i]] << " " << i;
+            return {};
         }
-        return nums;
+        hashmap[nums[i]] = i;
     }
-};
+    cout << "No solution (result from custom input).";
+    return {};
+}
 
 int main(){
-    Solution method;
-    vector<int> testdat{2,7,11,15};
-    vector<int> output = method.twoSum(testdat,9);
-    cout<<"[";
-    for(int i=0;i<output.size();i++){
-        cout<<output[i]<<",";
+    vector<int> nums; // = {2,7,11,15};
+    int target; // = 9;
+
+    //custom input
+    int size;
+    cout << "Input the size of array:" << endl;
+    cin >> size;
+
+    cout << "Input the elements into array:" << endl;
+    int input;
+    for(int i =0; i<size;i++){
+        cin >> input;
+        nums.push_back(input);
     }
-    cout<<"]";
+    
+    cout << "Input the target:" << endl;
+    cin >> target;
+
+    twoSum(nums, target);
 }

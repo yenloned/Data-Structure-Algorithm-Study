@@ -1,10 +1,11 @@
+//Question:https://leetcode.com/problems/top-k-frequent-elements/
+//the number of unique elements in the array must in range (1,n)
+//i.e O(u) = O(n)
+//k is in the range [1, the number of unique elements in the array]
+//i.e O(k)= O(n)
+//Time Complexity: O(n)+O(k)+O(ulog(2)) = O(n)
 class Solution {
 public:
-    //the number of unique elements in the array must in range (1,n)
-    //i.e O(u) = O(n)
-    //k is in the range [1, the number of unique elements in the array]
-    //i.e O(k)= O(n)
-    //Time Complexity: O(n)+O(k)+O(ulog(2)) = O(n+nlog(2))
     vector<int> topKFrequent(vector<int>& nums, int k) {
         unordered_map <int,int> NumsCount;
         vector<int> ans;

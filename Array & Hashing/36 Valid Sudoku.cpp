@@ -1,3 +1,5 @@
+//Question: https://leetcode.com/problems/valid-sudoku/
+//Time Complexity: O(n)+O(n)+O(n)=O(n)
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
