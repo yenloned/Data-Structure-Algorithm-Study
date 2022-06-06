@@ -35,7 +35,7 @@ ListNode* reverseList(ListNode* head) {
 }
 
 ListNode* reverseList(ListNode* head) {
-    //Iterative solution, Time Complexity of O(n), Space Complexity of O(n) / O(1)
+    //Recursion solution, Time Complexity of O(n), Space Complexity of O(n) / O(1)
     if (!head || !(head -> next)) {
         return head;
     }
