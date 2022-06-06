@@ -1,10 +1,14 @@
+//Question: https://leetcode.com/problems/valid-sudoku/
+//n =9x9 = 81 = constant
+//Time Complexity: O(n)+O(n)+O(n)=O(1), n = number of cells on the board
+//Space Complexity: O(3n) =O(1)
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
         //Time Complexity: O(n)+O(n)+O(n) = O(3n) = O(n), n = number of cells on the board
         return checkRow(board)&&checkColumn(board)&&checkGrid(board);
     }
-    //O(n), n = number of cells on the board
+    //Time:O(n), n = number of cells on the board
     bool checkRow(vector<vector<char>>& board){
         for(int i=0;i<board.size();i++){
             unordered_set<char> nums;
@@ -23,7 +27,7 @@ public:
         }
         return true;
     }
-    //O(n), n = number of cells on the board
+    //Time:O(n), n = number of cells on the board
     bool checkColumn(vector<vector<char>>& board){
         for(int i=0;i<board.size();i++){
             unordered_set<char> nums;
@@ -42,7 +46,7 @@ public:
         }
         return true;
     }
-    //O(n), n = number of cells on the board
+    //Time:O(n), n = number of cells on the board
     bool checkGrid(vector<vector<char>>& board){
         for(int i=0;i<board.size();i++){
             unordered_set<char> nums;

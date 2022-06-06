@@ -1,21 +1,23 @@
+//Question:https://leetcode.com/problems/top-k-frequent-elements/
+//the number of unique elements in the array must in range (1,n)
+//i.e O(u) = O(n)
+//k is in the range [1, the number of unique elements in the array]
+//i.e O(k)= O(n)
+//Time Complexity: O(n)+O(k)+O(ulog(2)) = O(n)
+//Space Complexity: O(n)
 class Solution {
 public:
-    //the number of unique elements in the array must in range (1,n)
-    //i.e O(u) = O(n)
-    //k is in the range [1, the number of unique elements in the array]
-    //i.e O(k)= O(n)
-    //Time Complexity: O(n)+O(k)+O(ulog(2)) = O(n+nlog(2))
     vector<int> topKFrequent(vector<int>& nums, int k) {
         unordered_map <int,int> NumsCount;
         vector<int> ans;
         //This queue is in descending order, i.e top element = minimum in the queue
         priority_queue <pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> Heap;
         // Count the frequency of each number
-        //O(n)
+        //Time:O(n)
         for(auto it:nums){
             NumsCount[it]++;
         }
-        //O(the number of unique elements in the array)
+        //Time:O(the number of unique elements in the array)
         for(auto it:NumsCount){
             int num=it.first;
             int freq = it.second;
@@ -33,7 +35,7 @@ public:
                 Heap.pop();
             }
         }
-        //O(k)
+        //Time:O(k)
         //return answer
         while(!Heap.empty()){
             ans.push_back(Heap.top().second);
