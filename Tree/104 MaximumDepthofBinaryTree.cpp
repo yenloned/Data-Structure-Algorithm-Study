@@ -17,7 +17,7 @@ struct TreeNode {
 
 //There is 3 solutions for this question
 
-//DFS Recursion, Time Complexity of O(n), Space Complexity of O(n)
+//DFS Recursion, Time Complexity of O(n), Space Complexity of O(h)
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -28,7 +28,7 @@ public:
     }
 };
 
-//DFS Iterative, Time Complexity of O(n), Space Complexity of O(n)
+//DFS Iterative, Time Complexity of O(n), Space Complexity of O(h)
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -54,7 +54,7 @@ public:
     }
 };
 
-//BFS Iterative, Time Complexity of O(n), Space Complexity of O(n)
+//BFS Iterative, Time Complexity of O(n), Space Complexity of O(h)
 class Solution {
 public:
     int maxDepth(TreeNode *root){
