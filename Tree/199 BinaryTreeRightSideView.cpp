@@ -14,7 +14,7 @@ struct TreeNode {
 };
 
 class Solution {
-    //BFS Solution, Time Complexity of O(n), Space Complexity of O(n)
+    //BFS Solution, Time Complexity of O(n), Space Complexity of O(logn) / O(n)
     //This solution is similar with 102 BinaryTreeLevelOrderTraversal as BFS
 public:
     vector<int> rightSideView(TreeNode* root) {
