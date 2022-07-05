@@ -16,7 +16,7 @@ public:
                 minheap.pop();          //Pop out the root (smallest element) k times
             }
         }
-        //Now the root 
+        //Now the root (smallest element) is the kth largest element since it pop size-k times of smallest element
         return minheap.top();
     }
     //It has a very short code implementation. However, it is not the best solution for Time Complexity
