@@ -9,7 +9,7 @@ Output: 2
 */
 
 class Solution {
-    //Dijkstra Algorithm Solution, Time Complexity of , Space Complexity of 
+    //Dijkstra Algorithm Solution, Time Complexity of O(E + VlogV), Space Complexity of O(V)
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         //push the connected node and weight to according node(index in adj array)
