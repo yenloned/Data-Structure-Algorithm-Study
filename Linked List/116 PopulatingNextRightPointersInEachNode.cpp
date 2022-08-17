@@ -13,7 +13,7 @@ Populate each next pointer to point to its next right node. If there is no next 
 Initially, all next pointers are set to NULL.
 */
 
-/*
+
 // Definition for a Node.
 class Node {
 public:
@@ -29,7 +29,6 @@ public:
     Node(int _val, Node* _left, Node* _right, Node* _next)
         : val(_val), left(_left), right(_right), next(_next) {}
 };
-*/
 
 class Solution {
     //BFS Right to Left Solution, Time Complexity of O(N), Space Complexity of O(W)
