@@ -22,17 +22,18 @@ public:
 
         //create a minHeap
         priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
-        //note the first node as visited
+        //note the first node as visited ({weight, node})
         pq.push({0,k});
         dist[k]=0;
         
-        while(!pq.empty())
-        {
-            pair<int,int> t=pq.top();
+        while(!pq.empty()){
+
+            pair<int,int> t = pq.top();
             pq.pop();
-            //check the connected nodes
-            for(pair<int,int> it:adj[t.second]){
-                //if it is a shorter path
+
+            //check all the connected nodes of the popped node (smallest), we can find the shortest next node since we compare each connected node in this loop
+            for(pair<int,int> it : adj[t.second]){
+                //if it is a shorter path (current node is larger than connected node)
                 if(dist[it.first] > t.first + it.second){
                     //update weight
                     dist[it.first] = t.first + it.second;
